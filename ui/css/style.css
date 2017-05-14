@@ -1,3 +1,11 @@
-GtkButton {
+/*GtkButton {
     background: red;
+}
+*/
+.red-car {
+    background: red;
+}
+
+.blue-car {
+    background: blue;
 }

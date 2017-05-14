@@ -37,6 +37,8 @@
                         <property name="ypad">40</property>
                         <property name="label" translatable="yes">
 </property>
+                        <property name="ellipsize">end</property>
+                        <property name="angle">0.029999999329447746</property>
                       </object>
                       <packing>
                         <property name="left_attach">0</property>
@@ -83,20 +85,6 @@
                       <packing>
                         <property name="left_attach">0</property>
                         <property name="top_attach">4</property>
-                      </packing>
-                    </child>
-                    <child>
-                      <object class="GtkLabel" id="label7">
-                        <property name="visible">True</property>
-                        <property name="can_focus">False</property>
-                        <property name="xpad">60</property>
-                        <property name="ypad">40</property>
-                        <property name="label" translatable="yes">
-</property>
-                      </object>
-                      <packing>
-                        <property name="left_attach">0</property>
-                        <property name="top_attach">5</property>
                       </packing>
                     </child>
                     <child>
@@ -440,7 +428,7 @@
                       <object class="GtkLabel" id="label32">
                         <property name="visible">True</property>
                         <property name="can_focus">False</property>
-                        <property name="xpad">60</property>
+                        <property name="xpad">65</property>
                         <property name="ypad">40</property>
                         <property name="label" translatable="yes">
 </property>
@@ -532,6 +520,20 @@
                       <packing>
                         <property name="left_attach">0</property>
                         <property name="top_attach">2</property>
+                      </packing>
+                    </child>
+                    <child>
+                      <object class="GtkLabel" id="label7">
+                        <property name="visible">True</property>
+                        <property name="can_focus">False</property>
+                        <property name="xpad">60</property>
+                        <property name="ypad">40</property>
+                        <property name="label" translatable="yes">
+</property>
+                      </object>
+                      <packing>
+                        <property name="left_attach">0</property>
+                        <property name="top_attach">5</property>
                       </packing>
                     </child>
                   </object>
